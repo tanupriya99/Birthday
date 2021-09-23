@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".memory">
+
+    <TextView
+        android:id="@+id/txtmsg_1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calligraphy"
+        android:gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:text="Some  beautiful  memories  of  togetherness"
+        android:textColor="#7E0606"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,SpUsage">
+
+    </TextView>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtmsg_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtmsg_1"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="15dp"
+                android:text="1.'Are you from UP 😅😅' and our journey starts, still behaved for some days as if we don't know each other.\n\n
+2.'Notes banayi ho kya c language ka? Apni notes de do na' and notes lekar 3-4 days gayab😂😂.\n\n
+3.'Assignment ho gya tumhara? Mera number save hai kya tumhare pass? (reply--nhi)Phone do hum hi save kar de rhe'.
+🙂🙂Mera phone aur number tu save kar rha tha wah 🙄🙄.Parhne wala larka lag rha tha
+isliye nhi kuchh bola maine 😂😂.\n\n4.Ignored you in the auditorium 🤣🤣 ek toh main tujhe achhe se janti nhi thi upar se tu peeche se bula rha tha 😑😑.
+Reason::Lagta tha peecha kar rha...😆😆 (branch same,nss same). But sorry, I was wrong.\n\n5.Ohoo!!! Ek baar toh NSS ke event me Hindi divas pe front me jaake
+sukanye aur bidyut ke paas kaise baith gya tha, dikh rha tha pichhe se...tab toh pakka laga tha
+kuchh toh garbar hai isme 🤔🤔.\n\n6.But forget it...After few days you got prize for poetry
+🎉🎉.Congo kehna tha but sab pehle hi bol diye toh maine socha chhoro sab log toh bol hi diye tab main kya hi bolu, meri taraf dekhega toh bol dungi 😂😂.\n\n7.I still remember our first
+argument on painting.
+We fought for that painting for individual names but at last we shared it.\n\n8.Fir toh hum sab apne apne ghar hi chale gye...and...lockdown starts 😣😣.\n\n9.Us time pe toh meri alag hi duniya thi 😣😣.
+Ekdum gandi wali.\n\n10.But I never knew you would enter in my life this way 🥰🥰.\n\n11.Pta nhi kaise tu kabhi irritate nhi hua...main toh din me kitni baar tujhe call kar
+deti thi.\n\n12.Pta hai...ye toh main kabhi nhi bhulungi kaise tu mujhe hmesha conference pe rakh deta tha aur exam me cheating karwata tha 🤭🤭.\n\n13
+Birthday pe mere maths ka exam tha fir bhi 1 bje tak tune baat kiya aur main us gadhe ke liye ro rhi thi. 😤😤\n\n14.
+Us din kitna dar gaya tha na 😂😂 jab physics ke exam me MS teams pe teri awaz chali gyi thi.\n\n15.
+First time mera adobe ka form miss hone ke baad toh sayad hi tune meri koi class bhi miss hone di ho.\n\n16.Meri saare assignments me toh sabse bara tera hi haath hai 🥰🥰\n\n17.
+Really...thankyou sooo much...for always motivating me. ☺☺\n\n18.COA...jo samjh hi nhi ata tha hai kya...but tune hi pura parhaya tha..our night study...
+kitni baar toh main so bhi jati thi 🥱 aur tu 'hello..hello...samjh me aa rha hai na' kaise batau nind aa rhi hai 😂😂\n\n19.
+You are the only reason I'm back to myself otherwise samjh hi nhi aata tha kisse share karu apni problems. 😘😘\n\n20.
+Fir journey start hui coding ki...aur ye abhi tak chal rhi..😐😐\n\n21.I hope ki hmari company bhi same ho jaye.
+Fir adha kaam tujhse karwa lungi 😁😁.\n\n22.Yaad hai ek baar maine asim ko haa kar di thi stupid si cheez ke liye 😐😐,
+and then next day 'ankit...fir se maine kuchh garbar kar di 😂😂 ab kya karu'🤣🤣.
+But fir sort out ho gya sab.\n\n23.DLD lab ke exam me toh tune apna 50 marks ka ques.
+bhi nhi kiya kyunki time chala gya mera answers likhne me 😪😪.\n\n24.Yaad hai...ek baar maine asim ko puri dld ki file de di thi
+and fir jab maine tujhe btaya toh your expression were like...'ye kya kar di tum...fir se ek galti.
+And then koi baat nhi...but ab aisa mat karna tanu' but after sometime again similar type of mistake...
+disclose your name to some other person .\n\n25.'Bhut pareshan kar diya hai na maine tujhe.Koi baat nhi...next time se nhi
+karungi...pakka'. But again same mistake jab tak achhe se suna nhi deta .\n\n26.Aur bhi kuchh add karna hoga toh bta dena 🤗🤗.
+"
+                android:textColor="@color/maroon"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,NotSibling">
+
+
+            </TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtmsg_2"
+                android:layout_marginBottom="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="Click to next level"
+                android:textColor="@color/purple_700"
+                android:id="@+id/btn1">
+
+            </Button>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>
