@@ -25,7 +25,6 @@ public class secret extends AppCompatActivity {
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),memory.class));
                 song.stop();
-
                 finish();
             }
         });
